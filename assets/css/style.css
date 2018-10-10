@@ -1,0 +1,95 @@
+html {
+    height: 100%;
+    box-sizing: border-box;
+}
+
+/* Page */
+body {
+    /*position: relative;*/
+    text-align: center;
+    min-height: 100%;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    min-height: 100px;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-image: url("../images/TMNT.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
+
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+a {
+    color: snow;
+}
+
+.center {
+    text-align: center; 
+}
+
+form {
+	color: black;
+}
+
+#show-form {
+	display: inline;
+}
+
+input-type:hover {
+    background-color: #F57921
+}
+label {
+    margin: 10px;
+}
+label:hover {
+    background-color: snow;
+}
+
+#character-input {
+    width: 250px;
+}
+
+/* Buttons */
+
+button {
+    margin: 5px;
+    text-align: center;
+    background: snow;
+}
+
+#buttonsView {
+	display: inline;
+}
+
+button:hover {
+    background-color: #F57921;
+}
+
+.submit-button {
+    margin: 5px;
+}
+
+.submit-button:hover {
+    background-color: #F57921;
+}
+
+/*GIFs*/
+
+.gifs {
+    display: inline;
+}
+
+.gif {
+	display: inline;
+    margin: 10px;
+}
+
+#gifsView {
+	display: inline;
+}
+
